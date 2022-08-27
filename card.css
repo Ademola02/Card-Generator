@@ -1,0 +1,165 @@
+body{
+    box-sizing: border-box;
+    background-color: #262626 !important;
+margin: 0px;
+padding: 0px;
+}
+.container{
+    height: 72vh;
+    width: 50%;
+	display: block;
+    background-color: #221b69;
+    border: 2px solid white;
+}
+h1{
+    text-align: center;
+    color: #ffcc33; 
+}
+select{
+    width: 170px !important;
+    margin-left: 50px !important;
+    height: 50px; 
+    border: 2px solid black;
+    color:black !important;
+    margin-top: 15px !important;
+    font-size: 15px !important;
+    text-align: center;
+    outline: none !important;
+    border-radius: 4px; 
+}
+.amount{
+    margin-left: 50px;
+    width: 200px !important;
+    height: 50px;
+    color: #ffcc33; 
+     margin-bottom: 60px !important;
+}
+.amount input{
+    width: 200px !important;
+    height: 50px; 
+    border: 2px solid;
+    background-color:white;
+    color:black !important;
+    font-size: 15px !important;
+    text-align: center;
+    border-radius: 4px;
+}
+.pin{
+    margin-left: 50px;
+    width: 200px !important;
+    height: 50px;
+    color: #ffcc33; 
+}
+.pin div{
+    width: 200px !important;
+    height: 50px; 
+    border: 2px solid ;
+    background-color:white ;
+    color:black !important;
+    font-size: 20px !important;
+    text-align: left;
+    border-radius: 4px; 
+}
+.table{
+    margin: 9px;
+     display: block;
+     width: 70% !important;
+    border: 2px solid white;
+}
+.thead{
+    background-color: #221b69; 
+    width: 100% !important;
+}
+
+.recha{
+    float: right;
+    width: 400px;
+    height: 200px;
+}
+#char{
+    width: 290px;
+    margin: 5px;
+    margin-left: 60px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+}
+.rec{
+    margin-left: 120px !important;
+}
+@media only screen and (max-width: 900px){
+    .container{
+        width: 200% !important;
+        height: 70vh !important;
+        display: block !important;
+        margin-left: 20% !important;
+        background-color: #221b69;
+        text-align: center !important;
+        border: 2px solid white;
+        /* margin: 10px; */
+    } 
+    h1{
+        font-size: 20px !important;
+    }
+    select{
+        width: 50% !important;
+        margin-left: 0px !important;
+        margin-top: 20px !important;
+        font-size: 15px !important;
+    }
+    .amount{
+        margin-left: 0px !important;
+        width: 50% !important;
+        height: 50px;
+         margin-bottom: 20px !important;
+    }
+    h2{
+         font-size: 15px !important;
+    }
+    .amount input{
+        width: 50% !important;
+        height: 45px; 
+        font-size: 15px !important;
+    }
+    .pin{
+        margin-left: 0px !important;
+        width: 50% !important;
+        height: 50px;
+        
+    }
+    .pin div{
+        width: 70% !important;
+        height: 50px; 
+        margin-left: 12%;
+        font-size: 20px !important;
+        text-align: left; 
+    }
+    .table{
+        margin-top: 100px;
+         width: 60% !important;
+        border: 2px solid white;
+    }
+    .thead{
+        background-color: #221b69; 
+        width: 90% !important;
+        font-size: 12px !important;
+    }
+    #display{
+        width: 100% !important;  font-size: 12px !important;
+    }
+    .recha{
+        float:right!important;
+        width:50%;
+        height: 200px;
+    }
+    #char{
+        width: 200px;
+        margin: 5px;
+        margin-left: 60px;
+        height: 50px;
+        border-radius: 5px;
+    }
+    .rec{
+        margin-left: 10px !important;
+    }
+}
